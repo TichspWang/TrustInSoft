@@ -7,9 +7,9 @@ int main()
     int y[5] = {1, 2, 3, 4, 5};
     int* px = x;
     int* py = y;
-    py = malloc(sizeof(int) * 5);
+    py = malloc(sizeof(int));
     py = y
-    printf("%d", *x);
+    printf("%d", *y + 1);
     free(py);
     printf("%d", y[0]);
     return 0;
