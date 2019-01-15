@@ -10,7 +10,7 @@ int main()
     py = malloc(sizeof(int));
     py = y;
     printf("%d", *y + 1);
-    //free(py);
+    free(py);
     printf("%d", y[0]);
     return 0;
 }
