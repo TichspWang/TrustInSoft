@@ -7,8 +7,10 @@ int main()
     int y[5] = {1, 2, 3, 4, 5};
     int* px = x;
     int* py = y;
+    py = malloc(sizeof(int) * 5);
+    py = y
     printf("%d", *x);
-    //free(py);
+    free(py);
     printf("%d", y[0]);
     return 0;
 }
