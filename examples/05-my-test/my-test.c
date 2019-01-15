@@ -8,7 +8,7 @@ int main()
     int* px = x;
     int* py = y;
     printf("%d", *x);
-    free(py);
+    //free(py);
     printf("%d", y[0]);
     return 0;
 }
