@@ -8,9 +8,9 @@ int main()
     int* px = x;
     int* py = y;
     py = malloc(sizeof(int));
-    py = y
+    py = y;
     printf("%d", *y + 1);
-    free(py);
+    //free(py);
     printf("%d", y[0]);
     return 0;
 }
